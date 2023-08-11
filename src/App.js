@@ -13,8 +13,7 @@ export default class App extends Component {
   };
 
   setProgress = (progress) => {
-    // console.log("setProgress run");
-    console.log("api : " + this.apiKey);
+    // console.log("api : " + this.apiKey);
     this.setState({
       progress: progress,
     });
